@@ -1,6 +1,9 @@
 @import 'normalize.css';
 @import 'base/_global';
 @import 'base/_vari';
+@import "base/_mixins";
+
+
 
 @import 'modules/_header0';
 

@@ -2,6 +2,7 @@ const { postcssPlugin } = require('cssnano')
 const path = require('path')
 
 const postCSSPlugins =[
+    require('postcss-mixins'),
     require('postcss-import'),
     require('postcss-simple-vars'),
     require('postcss-nested'),
@@ -21,6 +22,7 @@ module.exports = {
         contentBase:path.join(__dirname,'app'),
         hot:true,
         port:3000,
+        host:'0.0.0.0',  //
     },
     mode:'development',
     
