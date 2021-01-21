@@ -4,10 +4,14 @@
     text-decoration: none;
     padding: .75rem 1.2rem;
     display: inline-block;
+    border-radius: 12px;
 
 
     &_orange{
+        
         background-color: $mainOrange;
+        
+        
     }
 
     &_large{
@@ -15,7 +19,7 @@
         padding: 1.1rem 1.9rem;
 
         @media (min-width: 530px) {
-            font-size: 1.25rem;
+            font-size: 1.2rem;
           }
     }
 }

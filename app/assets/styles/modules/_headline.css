@@ -1,10 +1,10 @@
 .headline {
-  font-size: 1.9rem;
+  font-size: 1.3rem;
   font-weight: 300;
   color: $mainBlue;
 
   @media (min-width: 530px)  {
-    font-size: 2.875rem;
+    font-size: 2.1rem;
   }
 
   &--centered {
@@ -16,9 +16,9 @@
   }
 
   &--small {
-    font-size: 1.2rem;
+    font-size: 1rem;
     @media (min-width: 530px)  {
-      font-size: 1.875rem;
+      font-size: 1.2rem;
     }
   }
 
